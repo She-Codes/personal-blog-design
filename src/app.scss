@@ -132,6 +132,10 @@ body {
   flex-direction: row-reverse;
 
   .post {
+    img {
+      width: 100%;
+    }
+    
     h2 {
       @include mdc-typography(headline3);
       font-weight: 700;
